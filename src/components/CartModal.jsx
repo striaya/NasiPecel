@@ -8,7 +8,7 @@ export default function CartModal({ isOpen, onClose, cart, onUpdate, onRemove })
   const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
 
   const waMessage = cart.map(i => `${i.name} x${i.qty}`).join(', ');
-  const waLink = `https://wa.me/6281234567890?text=Halo%20Pecel%20Nusantara%2C%20saya%20mau%20pesan%3A%20${encodeURIComponent(waMessage)}%20%0ATotal%3A%20${formatPrice(total)}`;
+  const waLink = `https://wa.me/6285781573040?text=Halo%20Pecel%20Mamah%20Satria%2C%20saya%20mau%20pesan%3A%20${encodeURIComponent(waMessage)}%20%0ATotal%3A%20${formatPrice(total)}`;
 
   if (!isOpen) return null;
 

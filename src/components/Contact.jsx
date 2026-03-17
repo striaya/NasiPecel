@@ -27,9 +27,9 @@ export default function Contact() {
                 <div>
                   <div className="font-body font-semibold text-sm text-espresso-800 dark:text-cream-100 mb-1">Alamat</div>
                   <div className="font-body text-xs text-bark-600 dark:text-cream-200/60 leading-relaxed">
-                    Jl. Soekarno Hatta No. 45<br />
-                    Kelurahan Lowokwaru<br />
-                    Kota Malang, Jawa Timur 65141
+                    Jl. Otista 1A<br />
+                    Kelurahan Bidara Cina<br />
+                    DKI Jakarta, Jakarta Timur 13330
                   </div>
                 </div>
               </div>
@@ -42,9 +42,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-body font-semibold text-sm text-espresso-800 dark:text-cream-100 mb-1">Telepon / WhatsApp</div>
-                  <div className="font-body text-xs text-bark-600 dark:text-cream-200/60">+62 812-3456-7890</div>
+                  <div className="font-body text-xs text-bark-600 dark:text-cream-200/60">+62 857-8157-3040</div>
                   <a
-                    href="https://wa.me/6281234567890?text=Halo%20Pecel%20Nusantara%2C%20saya%20mau%20pesan!"
+                    href="https://wa.me/6285781573040?text=Halo%20Pecel%20Mamah%20Satria%2C%20saya%20mau%20pesan!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 mt-2 text-xs font-medium text-leaf-600 dark:text-leaf-400 hover:underline"
@@ -65,8 +65,8 @@ export default function Contact() {
                   <div className="font-body font-semibold text-sm text-espresso-800 dark:text-cream-100 mb-2">Jam Operasional</div>
                   <div className="space-y-1">
                     {[
-                      { day: 'Senin – Jumat', hours: '07.00 – 15.00 WIB' },
-                      { day: 'Sabtu – Minggu', hours: '07.00 – 13.00 WIB' },
+                      { day: 'Senin – Jumat', hours: '9.00 – 17.00 WIB' },
+                      { day: 'Sabtu – Minggu', hours: '9.00 – 19.00 WIB' },
                     ].map((h) => (
                       <div key={h.day} className="flex justify-between gap-4">
                         <span className="font-body text-xs text-bark-600 dark:text-cream-200/60">{h.day}</span>
@@ -82,9 +82,8 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* WA Order Button */}
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Pecel%20Nusantara%2C%20saya%20mau%20pesan!%20Bisa%20bantu%20saya%3F"
+              href="https://wa.me/6285781573040?text=Halo%20Pecel%20Mamah%20Satria%2C%20saya%20mau%20pesan!%20Bisa%20bantu%20saya%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full bg-gradient-to-r from-leaf-600 to-leaf-700 hover:from-leaf-500 hover:to-leaf-600 text-white font-body font-semibold py-4 rounded-2xl shadow-lg shadow-leaf-900/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
@@ -96,11 +95,10 @@ export default function Contact() {
             </a>
           </div>
 
-          {/* Map */}
           <div className="lg:col-span-3 reveal">
             <div className="rounded-3xl overflow-hidden shadow-xl border border-cream-200 dark:border-espresso-700 h-full min-h-80">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.2!2d112.6!3d-7.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNTcnMDAuMCJTIDExMsKwMzYnMDAuMCJF!5e0!3m2!1sid!2sid!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d991.5710385480269!2d106.86462975440813!3d-6.226216024322459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1773748259876!5m2!1sid!2sid"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '400px' }}

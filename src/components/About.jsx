@@ -1,10 +1,11 @@
 import { Leaf, Heart, Award, Users, Trophy } from 'lucide-react';
+import herobg from '../assets/waroeng.jpeg';
 
 const features = [
   { icon: Leaf, title: 'Bahan Segar', desc: 'Sayuran dipilih setiap pagi dari pasar lokal' },
-  { icon: Heart, title: 'Resep Turun-Temurun', desc: 'Warisan kuliner tiga generasi keluarga' },
-  { icon: Award, title: 'Kualitas Terjamin', desc: 'Higienis, lezat, dan terpercaya sejak 2014' },
-  { icon: Users, title: 'Dicintai Ribuan', desc: 'Lebih dari 500 pelanggan setia per hari' },
+  // { icon: Heart, title: 'Resep Turun-Temurun', desc: 'Warisan kuliner tiga generasi keluarga' },
+  { icon: Award, title: 'Kualitas Terjamin', desc: 'Higienis, lezat, dan terpercaya sejak 2016' },
+  // { icon: Users, title: 'Dicintai Ratusan', desc: 'Lebih dari 500 pelanggan setia per hari' },
 ];
 
 export default function About() {
@@ -16,21 +17,15 @@ export default function About() {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl shadow-bark-200/30 dark:shadow-espresso-900/50">
                 <img
-                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80"
+                  src={herobg}
                   alt="Dapur Pecel Nusantara"
                   className="w-full h-80 lg:h-[480px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-espresso-900/40 to-transparent rounded-3xl" />
               </div>
 
-              <div className="absolute -bottom-6 -right-6 bg-white dark:bg-espresso-700 rounded-2xl shadow-xl p-4 border border-cream-200 dark:border-espresso-600 max-w-40">
-                <div className="w-8 h-8 bg-gradient-to-br from-bark-400 to-bark-600 rounded-xl flex items-center justify-center mb-2"><Trophy className="w-4 h-4 text-white" /></div>
-                <div className="font-display font-bold text-sm text-espresso-800 dark:text-cream-100">UMKM Terbaik</div>
-                <div className="font-body text-xs text-bark-500">Kota Malang 2023</div>
-              </div>
-
               <div className="absolute -top-6 -left-6 bg-gradient-to-br from-leaf-600 to-leaf-700 rounded-2xl shadow-xl p-4 max-w-36">
-                <div className="font-display font-bold text-2xl text-white">10+</div>
+                <div className="font-display font-bold text-2xl text-white">10±</div>
                 <div className="font-body text-xs text-cream-200">Tahun Pengalaman</div>
               </div>
 
@@ -44,18 +39,16 @@ export default function About() {
             </div>
 
             <h2 className="font-display text-3xl sm:text-4xl lg:text-4xl font-bold text-espresso-800 dark:text-cream-100 leading-tight mb-5">
-              Dari Dapur Keluarga ke{' '}
+              Dari Dapur Sederhana ke{' '}
               <span className="text-gradient italic">Meja Anda</span>
             </h2>
 
             <div className="w-16 h-1 bg-gradient-to-r from-bark-400 to-bark-600 rounded-full mb-6" />
 
             <p className="font-body text-sm text-bark-600 dark:text-cream-200/60 leading-relaxed mb-4">
-              Pecel Nusantara lahir dari kecintaan mendalam terhadap kuliner tradisional Indonesia. Pada tahun 2014, Ibu Sari memulai perjalanannya dengan berjualan di teras rumah menggunakan resep bumbu kacang warisan neneknya.
-            </p>
+              Nasi pecel bagi kami bukan sekadar hidangan, tapi cerita tentang rumah—tentang sayuran segar yang disiapkan dengan penuh perhatian dan bumbu kacang hangat yang diracik dengan rasa yang pas, tidak berlebihan, namun selalu membekas.</p>
             <p className="font-body text-sm text-bark-600 dark:text-cream-200/60 leading-relaxed mb-8">
-              Hari ini, kami hadir untuk membawa kenangan rasa itu langsung ke hadapan Anda — dengan konsistensi rasa, bahan-bahan segar berkualitas, dan semangat yang sama seperti saat pertama kali kami memasak untuk tetangga tercinta.
-            </p>
+              Berawal dari dapur kecil dan resep keluarga yang dijaga turun-temurun, setiap porsi nasi pecel yang kami sajikan membawa sentuhan kehangatan dan kejujuran rasa. Kami percaya, makanan terbaik adalah yang dibuat dengan hati—menggunakan bahan pilihan, diolah dengan kesabaran, dan disajikan dengan ketulusan.</p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
               {features.map((feat) => {

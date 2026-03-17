@@ -49,9 +49,9 @@ export default function Hero() {
 
           <div className="flex items-center gap-6 mb-10 animate-fade-up delay-400">
             {[
-              { value: '12', label: 'Tahun Berdiri' },
+              { value: '10±', label: 'Tahun Berdiri' },
               // { value: '500+', label: 'Pelanggan Harian' },
-              { value: '5', label: 'Rating Bintang' },
+              { value: '4.9', label: 'Rating Bintang' },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="font-display text-xl font-bold text-bark-300">{stat.value}</div>
@@ -69,7 +69,7 @@ export default function Hero() {
               <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
             </a>
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Pecel%20Nusantara%2C%20saya%20mau%20pesan!"
+              href="https://wa.me/6285781573040?text=Halo%20Pecel%20Mamah%20Satria%2C%20saya%20mau%20pesan!"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-body font-medium px-7 py-3.5 rounded-2xl transition-all duration-300 hover:-translate-y-0.5"

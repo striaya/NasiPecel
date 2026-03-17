@@ -27,17 +27,16 @@ export default function Navbar({ darkMode, setDarkMode, cartCount, onCartOpen })
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
             <div className="w-9 h-9 bg-gradient-to-br from-leaf-600 to-leaf-800 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300">
               <Leaf className="w-5 h-5 text-cream-100" />
             </div>
             <div className="leading-tight">
               <span className="font-display font-bold text-lg text-espresso-800 dark:text-cream-100 block leading-none">
-                Pecel
+                Nasi
               </span>
               <span className="font-accent text-xs text-bark-500 italic tracking-widest">
-                Nusantara
+                Pecel Mamah Satria
               </span>
             </div>
           </a>
@@ -78,7 +77,7 @@ export default function Navbar({ darkMode, setDarkMode, cartCount, onCartOpen })
             </button>
 
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Pecel%20Nusantara%2C%20saya%20mau%20pesan!"
+              href="https://wa.me/6285781573040?text=Halo%20Pecel%20Mamah%20Satria%2C%20saya%20mau%20pesan!"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:flex items-center gap-2 bg-gradient-to-r from-leaf-600 to-leaf-700 hover:from-leaf-500 hover:to-leaf-600 text-white text-sm font-medium px-4 py-2 rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
@@ -110,7 +109,7 @@ export default function Navbar({ darkMode, setDarkMode, cartCount, onCartOpen })
             </a>
           ))}
           <a
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6285781573040"
             className="flex items-center justify-center gap-2 bg-leaf-600 text-white text-sm font-medium px-4 py-2.5 rounded-xl mt-2"
           >
             Pesan via WhatsApp
