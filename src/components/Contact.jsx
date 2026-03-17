@@ -75,8 +75,8 @@ export default function Contact() {
                     ))}
                   </div>
                   <div className="flex items-center gap-1.5 mt-2">
-                    <span className="w-2 h-2 bg-leaf-500 rounded-full animate-pulse" />
-                    <span className="font-body text-xs text-leaf-600 font-medium">Buka Sekarang</span>
+                    {/* <span className="w-2 h-2 bg-leaf-500 rounded-full animate-pulse" />
+                    <span className="font-body text-xs text-leaf-600 font-medium">Belum Diatur</span> */}
                   </div>
                 </div>
               </div>
